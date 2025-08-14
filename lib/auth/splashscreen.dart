@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:movie_demo_selector/auth/widgets/splashscreen_background.dart';
 import 'package:movie_demo_selector/providers/main_provider.dart';
 import 'package:movie_demo_selector/providers/user_provider.dart';
 import 'package:movie_demo_selector/services/shared_preferences.dart';
@@ -47,22 +46,20 @@ class _SplashscreenState extends State<Splashscreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: MovieGradientBackground(
-        child: Container(
-          color: const Color.fromARGB(255, 255, 255, 255),
-          width: MediaQuery.of(context).size.width,
-          height: MediaQuery.of(context).size.height,
-          child: Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                SizedBox(
-                  width: MediaQuery.of(context).size.width * .9,
-                  child: Lottie.asset('assets/movie.json'),
-                ),
-              ],
-            ),
+      body: Container(
+        color: const Color.fromARGB(255, 255, 255, 255),
+        width: MediaQuery.of(context).size.width,
+        height: MediaQuery.of(context).size.height,
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              SizedBox(
+                width: MediaQuery.of(context).size.width * .9,
+                child: Lottie.asset('assets/movie.json'),
+              ),
+            ],
           ),
         ),
       ),

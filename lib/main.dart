@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movie_demo_selector/auth/login.dart';
-import 'package:movie_demo_selector/auth/onboarding/onboarding_main_screen.dart';
+import 'package:movie_demo_selector/auth/onboarding_main_screen.dart';
 import 'package:movie_demo_selector/auth/splashscreen.dart';
 import 'package:movie_demo_selector/auth/user_name_register.dart';
 import 'package:movie_demo_selector/home/home.dart';
