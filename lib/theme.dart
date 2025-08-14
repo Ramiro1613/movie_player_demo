@@ -35,32 +35,27 @@ final ThemeData lightMovieTheme = ThemeData(
   ),
   textTheme: TextTheme(
     displayLarge: TextStyle(
-      // Títulos hero (portadas, detalle de película)
       fontWeight: FontWeight.w800,
       fontSize: 40,
       letterSpacing: -0.5,
       color: _lightScheme.onSurface,
     ),
     titleLarge: TextStyle(
-      // Títulos de sección / cards
       fontWeight: FontWeight.w700,
       fontSize: 22,
       color: _lightScheme.onSurface,
     ),
     titleMedium: TextStyle(
-      // Subtítulos (p.ej. género/año)
       fontWeight: FontWeight.w600,
       fontSize: 16,
       color: _lightScheme.onSurfaceVariant,
     ),
     bodyLarge: TextStyle(
-      // Descripciones / sinopsis
       fontSize: 14,
       height: 1.4,
       color: _lightScheme.onSurface,
     ),
     labelLarge: TextStyle(
-      // Botones
       fontWeight: FontWeight.w700,
       letterSpacing: 0.2,
       color: _lightScheme.onPrimary,

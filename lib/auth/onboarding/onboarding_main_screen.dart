@@ -77,9 +77,9 @@ class _OnboardingMainScreenState extends State<OnboardingMainScreen> {
           ),
         ],
         showSkipButton: true,
-        skip: const Text("Saltar"),
-        next: const Text("Siguiente"),
-        done: const Text("Hecho"),
+        skip: const Text("Skip"),
+        next: const Text("Next"),
+        done: const Text("Done"),
         onDone: () {
           Navigator.pushNamed(context, '/login');
         },
